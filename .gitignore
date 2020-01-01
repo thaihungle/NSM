@@ -103,6 +103,7 @@ ENV/
 # default data folder
 data_babi/
 data_tmp/
+experiments/
 
 # pycharm
 .idea/
