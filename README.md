@@ -14,7 +14,7 @@ NUTM: python train_toys.py -task_json=./tasks/copy_long.json
 for training Repeat Copy  
 ```
 NTM baseline: python train_toys.py -task_json=./tasks/repeatcopy_ntm.json  
-NUTM: python train_toys.py -model_name=ntm -task_json=./tasks/repeatcopy.json
+NUTM: python train_toys.py -task_json=./tasks/repeatcopy.json
 ```
 for testing long Copy
 ``` 
