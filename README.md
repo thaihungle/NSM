@@ -31,7 +31,10 @@ NUTM: python train_toys.py -task_json=./tasks/mix_cp_repeatcp.json -batch_size=1
 # Babi task (branch babi)
 training
 ```
-git checkout babi
 cd scripts
 python start_training.py
+```
+testing
+```
+python inference_babi_task.py
 ```

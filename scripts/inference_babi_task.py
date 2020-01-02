@@ -34,9 +34,9 @@ model name when calling the script. (dnc, adnc, biadnc, biadnc-all, biadnc-aug16
 
 parser = argparse.ArgumentParser(description='Load model')
 parser.add_argument('--sess', type=int, default=1, help='session number')
-parser.add_argument('--machine', type=str, default="30BFPC0Y4K8N", help='machine name')
-parser.add_argument('--config', type=str, default="config_vnm.yml", help='config file')
-parser.add_argument('--dump', type=int, default=37, help='session number')
+parser.add_argument('--machine', type=str, default="", help='machine name')
+parser.add_argument('--config', type=str, default="config_nutm_dnc.yml", help='config file')
+parser.add_argument('--dump', type=int, default=30, help='session number')
 
 model_name = "adnc-all"
 
