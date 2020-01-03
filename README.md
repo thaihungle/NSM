@@ -27,3 +27,14 @@ training
 NTM baseline: python train_toys.py -task_json=./tasks/mix_cp_repeatcp_ntm.json -batch_size=16 
 NUTM: python train_toys.py -task_json=./tasks/mix_cp_repeatcp.json -batch_size=16 
 ```
+
+# Babi task (branch babi)
+training
+```
+cd scripts
+python start_training.py
+```
+testing
+```
+python inference_babi_task.py
+```
