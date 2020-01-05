@@ -65,7 +65,7 @@ babi_task:
   seed:           876
   valid_ratio:    0.1           # like nature paper
   batch_size:     *batch_size
-  max_len:        600
+  max_len:        500
 
   set_type:       ['en-10k']    # ['hn-10k', 'en-10k', 'shuffled-10k']
   task_selection: ['all'] # list of number (1-20) or 'all'
