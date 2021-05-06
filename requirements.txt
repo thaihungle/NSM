@@ -51,7 +51,7 @@ et-xmlfile==1.0.1
 fastcache==1.0.2
 filelock==3.0.8
 Flask==1.0.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 fonttools==3.33.0
 future==0.17.1
 gast==0.2.0
