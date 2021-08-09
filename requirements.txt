@@ -166,7 +166,7 @@ pytest-remotedata==0.3.0
 python-dateutil==2.7.3
 pytz==2018.5
 PyWavelets==1.0.0
-pywin32==223
+pywin32==301
 pywinpty==0.5.4
 PyYAML==5.4
 pyzmq==17.1.2
